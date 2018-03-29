@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exercicio_28_03_18</string>
+    <string name="hintProjectName">Insira nome do projeto</string>
+    <string name="hintEmptyDate">__/__/____</string>
+    <string name="labelProjectStart">Data de Inicio:</string>
+    <string name="labelProjectEnd">Data de Entrega:</string>
+    <string name="labelProjectEnded">Finalizado</string>
+    <string name="labelProjectStatus">Status do Projeto:</string>
+</resources>

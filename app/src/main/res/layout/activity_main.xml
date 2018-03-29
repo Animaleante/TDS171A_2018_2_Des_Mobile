@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.opet.exercicio_28_03_18.MainActivity">
+
+    <EditText
+        android:id="@+id/txtProjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintProjectName"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp">
+        <TextView
+            android:textSize="18sp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/labelProjectStart"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/dateprojectStart"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintEmptyDate"/>
+        <TextView
+            android:textSize="18sp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/labelProjectEnd"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/dateprojectEnd"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintEmptyDate"/>
+    </GridLayout>
+
+    <CheckBox
+        android:id="@+id/checkboxProjectEnded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="@string/labelProjectEnded"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/labelProjectStatus"
+        android:textSize="16sp"
+        android:paddingLeft="5sp"/>
+
+    <TextView
+        android:id="@+id/txtProjectStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+</LinearLayout>
